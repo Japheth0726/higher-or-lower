@@ -64,8 +64,8 @@ while game_should_continue:
         print(f"You are right! Current score: {score}")
     else:
         print(f"You are wrong! Final score: {score}")
-        print(f"Account A: {account_a['name']} has {a_follower_count}m followers.")
-        print(f"Account B: {account_b['name']} has {b_follower_count}m followers.")
+        print(f"{account_a['name']} has {a_follower_count}m followers while,")
+        print(f"{account_b['name']} has {b_follower_count}m followers.")
         game_should_continue = False
 
 
